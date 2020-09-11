@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Witaj muzycznym sklepie Kamila</title>
+    <meta name="author" content="Kamil's Vinyl Shop">
+    <meta name="description" content="Store front for Kamil's Vinyl Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png"/>
+    <!-- [if lt IE 9] <script src="https://oss.maxcdn.com/libs/html5shiv.js"></script>[endif] -->
+    <style>
+        body {
+            margin-top: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #e6e4d9;
+        }
+
+        #mainheader { background-color: white; }
+
+        nav {
+            height: 60px;
+            width: 1000px;
+            margin: 0 auto 20px;
+            border-bottom: 1px solid;
+            border-color: rgba(0, 0, 0, 0.15);
+        }
+
+        #leftmenu {
+            float: left;
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .searchbox {
+            padding: 5px;
+            margin: 10px 10px;
+            width: 200px;
+            border-color: rgba(0, 0, 0, 0.15);
+        }
+
+        #main {
+            float: right;
+            width: 70%;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            clear: both;
+            width: 100%;
+        }
+
+        header, section, footer, aside, nav, main, article, figure { display: block }
+
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+<header id="mainheader">
+    <nav>
+        <img src="img/vinyl-svgrepo-com.svg" height="55"/>
+    </nav>
+</header>
+
+<div style="width: 1000px; margin-left: auto; margin-right: auto">
+    <aside id="leftmenu">
+        <img src="img/vinyl-svgrepo-com.svg" width="200" height="200"/>
+        <header>
+            <h4 style="text-align: center;">Przeglądaj nasze płyty</h4>
+        </header>
+
+        <input type="search" class="searchbox" placeholder="Szukaj w naszym sklepie"/>
+    </aside>
+    <main id="main">
+        <table>
+            <caption>
+                Nasze muzyczne propozycje!
+            </caption>
+
+            <tbody>
+            <thead>
+                <tr>
+                    <th>Okładka</th>
+                    <th>Nazwa utworu</th>
+                    <th>Gatunek</th>
+                    <th>Cena</th>
+                    <th>Szczegóły</th>
+                </tr>
+            </thead>
+            <!--<tr>
+                <td colspan="5">Płyty winylowe</td>
+            </tr>-->
+            <tr>
+                <td>
+                    <img src="img/ddr03.jpg" width="70" />
+                </td>
+                <td>Dead Rail ‎– Dead Rail 03</td>
+                <td>Minimal</td>
+                <td>45,00 zł</td>
+                <td>Zobacz szczegóły</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/mescaleros-scaled.jpg" width="70" />
+                </td>
+                <td>Triptease ‎– Mescelaros</td>
+                <td>Techno</td>
+                <td>100,00 zł</td>
+                <td>Zobacz szczegóły</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/WRH01.jpg" width="70" />
+                </td>
+                <td>The Willers Brothers ‎– Space Age</td>
+                <td>Minimal </td>
+                <td>45,00 zł</td>
+                <td>Zobacz szczegóły</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/g-g-g-g-g.jpg" width="70" />
+                </td>
+                <td>Olin ‎– Huerco S. Remixes</td>
+                <td>Minimal </td>
+                <td>45,00 zł</td>
+                <td>Zobacz szczegóły</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/glg_015.jpg" width="70" />
+                </td>
+                <td>Matthias Reiling ‎– Gefällt Mir Nicht Mehr</td>
+                <td>Deep house</td>
+                <td>45,00 zł</td>
+                <td>Zobacz szczegóły</td>
+            </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>Our address is <address>Sklep muzyczny Kamila - Staszica 27/8 Rzeszów Polska</address></p>
+        <small> 2020 Kamil's Vinyl Shop - All rights reserved</small>
+    </footer>
+</div>
+</body>
+</html>
