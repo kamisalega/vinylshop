@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Hom Page";
+}
+
+<div style="width: 1000px; margin-left: auto; margin-right: auto">
+    <aside id="leftmenu">
+        <img src="img/vinyl-svgrepo-com.svg" width="200" height="200"/>
+        <header>
+            <h4 style="text-align: center;">Przeglądaj nasze płyty</h4>
+        </header>
+
+        <input type="search" class="searchbox" placeholder="Szukaj w naszym sklepie"/>
+    </aside>
+    <main id="main">
+        <article>
+            <header>
+                @* <h1 style="font-size: 40px;">Witaj w sklepie muzycznym Kamila @ViewBag.Title</h1> *@
+                <h2 style="font-size: 40px;"> @ViewBag.Title</h2>
+            </header>
+            <figure>
+                <img src="img/kamil_sklep.jpg" width="700" alt="Półki sklepu"/>
+                <figcaption>Półki sklepu</figcaption>
+            </figure>
+            <h2>O nas</h2>
+            <p>
+                <b>Sklep muzyczny Kamila</b>, funkcjonujący na rynku już od ponad dziesięciu lat to unikatowe miejsce na mapie Rzeszowa.
+                Spotykają się tu nie tylko fani muzyki i kolekcjonerzy płyt, ale też sami muzycy i wydawcy.
+            </p>
+            <p>
+                W lipcu brytyjski portal The Vinyl Factory umieścił go w swoim cyklicznym przewodniku po najlepszych sklepach płytowych z całego globu. <br/>
+                To wyróżnienie, swoista gwiazdka Michelina udowodniła, że internet nie jest w stanie wyprzeć stacjonarnych miejsc dystrybucji muzyki nad Wisłą.
+            </p>
+        </article>
+        <section>
+            <h3 style="font-family: NeueEinstellung, sans-serif;">Nasze promocje</h3>
+            <h4>Dead Rail ‎– Dead Rail 03</h4>
+            45,00 zł - Minimal <br/><br/>
+            <img src="img/ddr03.jpg" alt="Dead Rail ‎– Dead Rail 03" width="300" height="300"/>
+        </section>
+    </main>
+
+</div>
+
